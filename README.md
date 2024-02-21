@@ -1,1 +1,1 @@
-# MultimediaChatGPT
+# Multimedia Chat GPT
