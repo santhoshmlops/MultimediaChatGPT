@@ -1,0 +1,9 @@
+# Importing necessary libraries
+streamlit
+langchain
+google-generativeai
+chromadb
+langchain-google-genai
+python-dotenv
+openai
+pypdf
