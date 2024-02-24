@@ -1,0 +1,9 @@
+# Configuration for PDF processing
+pdf_model:
+  model: "gemini-pro" 
+  embedding : "models/embedding-001"
+  temperature : 0.2
+  chunk_size : 1000
+  chunk_overlap : 200
+  
+

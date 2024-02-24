@@ -1,9 +1,10 @@
-# Importing necessary libraries
+# Install necessary libraries
 streamlit
 langchain
 google-generativeai
-chromadb
 langchain-google-genai
 python-dotenv
 openai
-pypdf
+PyPDF2
+faiss-cpu
+chromadb
