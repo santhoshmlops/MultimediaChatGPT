@@ -83,25 +83,39 @@ def main():
 
     # Allow the user to upload an r PDF files
     pdf_docs = st.file_uploader("Upload your PDF Files ", accept_multiple_files=True)    
-    # Text input for user question
-    user_question = st.text_input("Enter your Question here")    
-    # Button to submit question
-    submit_button = st.button("Send", use_container_width=True)
 
-    # Process user input and generate response
-    if submit_button:
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # Accept user input
+    if prompt := st.chat_input("Enter your Question here"):
+        # Add user message to chat history
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        # Display user message in chat message container
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
         with st.spinner("Generating answer..."):
             # Extract text from PDFs and create vector store
             raw_text = get_pdf_text(pdf_docs)
             text_chunks = get_text_chunks(raw_text)
             get_vector_store(text_chunks)          
             # Get response to user question
-            response = user_input(user_question)
-            # Display response
-            st.subheader(":red[Response: ]")
-            st.write(response)
+            response = user_input(prompt)
+
+        # Display assistant response in chat message container
+        with st.chat_message("assistant"):        
+            st.session_state.messages.append({"role": "assistant", "content": response})
+            st.markdown(response) 
+        
+          
 
 
 if __name__ == "__main__":
     main()
-
