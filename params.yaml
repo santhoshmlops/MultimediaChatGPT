@@ -3,8 +3,8 @@ pdf_model:
   model: "gemini-pro" 
   embedding : "models/embedding-001"
   temperature : 0.2
-  chunk_size : 1000
-  chunk_overlap : 200
+  chunk_size : 10000
+  chunk_overlap : 500
   
 
 # Configuration for website processing
@@ -14,3 +14,8 @@ website_model:
   temperature : 0.4
   chunk_size : 10000
   chunk_overlap : 500
+
+
+# Configuration for image processing
+image_model:
+  model: "gemini-pro-vision" 
