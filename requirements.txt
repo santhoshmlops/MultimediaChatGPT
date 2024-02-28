@@ -1,10 +1,10 @@
 # Install necessary libraries
 streamlit
 langchain
+langchain-community
 google-generativeai
 langchain-google-genai
 python-dotenv
-openai
 PyPDF2
 faiss-cpu
-chromadb
+beautifulsoup4
