@@ -19,3 +19,12 @@ website_model:
 # Configuration for image processing
 image_model:
   model: "gemini-pro-vision" 
+
+
+# Configuration for Youtube Videos processing
+youtube_model:
+  model: "gemini-pro" 
+  embedding : "models/embedding-001"
+  temperature : 0.2
+  chunk_size : 10000
+  chunk_overlap : 500
