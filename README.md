@@ -2,6 +2,31 @@
 
 https://github.com/santhoshmlops/MultimediaChatGPT/assets/133121635/5cb28e4f-e05f-474e-98cf-9aa9b00084d6
 
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+Project repo: https://github.com/
+```
+
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n venv python=3.10 -y
+```
+
+```bash
+conda activate venv
+```
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
 # Home Page
 ![Screenshot (157)](https://github.com/santhoshmlops/MultimediaChatGPT/assets/133121635/879e1848-96d0-438f-bdb4-39402fa1a660)
 # Chat with PDF
