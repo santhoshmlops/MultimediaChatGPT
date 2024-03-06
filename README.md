@@ -1,6 +1,29 @@
 # Multimedia Chat GPT
 
+## Overview
+This project introduces a dynamic Streamlit application designed to facilitate engaging chat interfaces enriched with multimedia content. Leveraging cutting-edge language models from Google, including Gemini Pro and Gemini Pro Vision, our application offers users an interactive platform to communicate effectively while seamlessly integrating various media formats.
+
+## Key Features
+1. **Multimedia Integration:** Our application enables users to chat with diverse multimedia content, including PDF documents, websites, images, and YouTube videos.
+2. **Google Gemini Pro:** Powered by advanced language models, the application ensures robust and natural language processing capabilities for smooth interaction.
+3. **Streamlit Interface:** The user-friendly Streamlit framework provides an intuitive environment for users to navigate and interact with the chat interface effortlessly.
+
+## Objectives
+- Enhance communication experiences by offering a versatile platform for interacting with multimedia content.
+- Showcase the capabilities of Google Gemini Pro and Gemini Pro Vision in real-world applications.
+- Provide a seamless and user-friendly interface for individuals seeking interactive communication solutions.
+
+## Outcomes
+- Successful development and deployment of a Streamlit application with integrated multimedia chat capabilities.
+- Positive user feedback highlighting the application's ease of use and effectiveness in engaging communication.
+- Demonstrated potential for broader applications of language models in enhancing user experiences across various domains.
+
+## Conclusion
+Our project marks a significant step forward in the realm of interactive communication, offering a glimpse into the future of multimedia-rich chat interfaces powered by advanced language technologies.
+
+# Project Video
 https://github.com/santhoshmlops/MultimediaChatGPT/assets/133121635/5cb28e4f-e05f-474e-98cf-9aa9b00084d6
+
 
 # How to Download and Run Project?
 ### You will need to copy and paste the following code into your terminal :
