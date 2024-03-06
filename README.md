@@ -37,7 +37,20 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-### STEP 04 - Run the Streamlit Application : 
+### STEP 04 - Create an API key and save it in an environment variable : 
+
+Create your API key by signing in at the following link
+```bash
+https://makersuite.google.com/app/apikey
+```
+
+
+GOOGLE_API_KEY = "Add Your Google API Key Here"
+
+
+
+
+### STEP 05 - Run the Streamlit Application : 
 ```bash
 streamlit run Home_Page.py
 ```
