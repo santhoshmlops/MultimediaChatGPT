@@ -2,16 +2,19 @@
 
 https://github.com/santhoshmlops/MultimediaChatGPT/assets/133121635/5cb28e4f-e05f-474e-98cf-9aa9b00084d6
 
-# How to run?
-### STEPS:
+# How to Download and Run Project?
+### You will need to copy and paste the following code into your terminal :
 
-Clone the repository
+### STEP 01 - Clone this repository:
 
 ```bash
-Project repo: https://github.com/
+git clone https://github.com/santhoshmlops/MultimediaChatGPT.git
+```
+```bash
+cd MultimediaChatGPT
 ```
 
-### STEP 01- Create a conda environment after opening the repository
+### STEP 02 - Create a conda environment or python environment:
 
 ```bash
 conda create -n venv python=3.10 -y
@@ -20,12 +23,24 @@ conda create -n venv python=3.10 -y
 ```bash
 conda activate venv
 ```
+or
 
-### STEP 02- install the requirements
+```bash
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate
+```
+
+### STEP 03 - Install the Requirements : 
 ```bash
 pip install -r requirements.txt
 ```
-
+### STEP 04 - Run the Streamlit Application : 
+```bash
+streamlit run Home_Page.py
+```
 
 # Home Page
 ![Screenshot (157)](https://github.com/santhoshmlops/MultimediaChatGPT/assets/133121635/879e1848-96d0-438f-bdb4-39402fa1a660)
